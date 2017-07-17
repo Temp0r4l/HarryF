@@ -1,7 +1,11 @@
 #include <iostream>
+#include <string>
 using namespace std;
 
 int main()
 {
-		cout << "Birb Birb Birb. Birb is the Word" << endl;
-	}
+	string myName;
+	cout << "Enter your name" << endl;
+	cin >> myName;
+	cout << "Hello " << myName <<endl;
+}
